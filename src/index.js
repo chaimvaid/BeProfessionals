@@ -1,5 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Task from './components/Task'
+import TaskList from './components/TaskList'
 
-ReactDOM.render(<Task title="chaim" description="test description"/>, document.getElementById('container'))
+ReactDOM.render(<TaskList title="Task list" tasks={[{title: 'chaim', description: 'vaidberg'},{title: 'chaim2', description: 'vaidberg'}]}/>, document.getElementById('container'))
